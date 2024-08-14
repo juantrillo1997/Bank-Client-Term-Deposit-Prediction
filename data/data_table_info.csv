@@ -1,0 +1,18 @@
+Variable Name,Role,Type,Demographic,Description,Units
+age,Feature,Integer,Age,age,
+job,Feature,Categorical,Occupation,type of job,
+marital,Feature,Categorical,Marital Status,marital status,
+education,Feature,Categorical,Education Level,educational level,
+default,Feature,Binary,,has credit in default?,
+balance,Feature,Integer,,"avarage yearly balance, in euros",euros
+housing,Feature,Binary,,has a housing loan?,
+loan,Feature,Binary,,has personal loan?,
+contact,Feature,Categorical,,contact comunication type,
+day_of_week,Feature,Date,last contact day of the week, last contact day of the month,
+month,Feature,Date,last contact month of year,last contact month of year,
+duration,Feature,Integer,"last contact duration, in seconds","last contact duration, in seconds",seconds
+campaign,Feature,Integer,number of contacts during campaign,"number of contacts performed during this campaign and for this client (numeric, includes last contact)",
+pdays,Feature,Integer,days since last contact from previous campaign,"number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)",days
+previous,Feature,Integer,number of previous contacts,number of contacts performed before this campaign and for this client (numeric),
+poutcome,Feature,Categorical,outcome of previous campaign,outcome of the previous marketing campaign,
+y,Target,Binary,,has the client subscribed a term deposit?,
